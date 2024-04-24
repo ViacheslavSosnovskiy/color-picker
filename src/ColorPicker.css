@@ -1,0 +1,15 @@
+.ColorPicker {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    transition: transform 250ms linear;
+}
+
+.ColorPicker__active {
+    transform: scale(1.2);
+}
